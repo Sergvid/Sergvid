@@ -27,6 +27,7 @@ category_encoders, phik, SciPy, Matplotlib, Seaborn
 
 | Проект | Задача | Результат |
 |---|---|---|
+| [AutoValue AI: оценка стоимости автомобилей](https://github.com/Sergvid/project_autoValue_AI) | Регрессия рыночной цены авто с контролем риска переплаты/недооценки | MAE 75,3 тыс ₽ · R² 0,876 · Overpricing Rate 13,1% на holdout |
 | [Поведенческий скоринг банка](https://github.com/Sergvid/Project_va_bank) | Прогноз просрочек 90+ дней на горизонте 12 месяцев | ROC-AUC 0,92 · выявление 97,6% дефолтов при доле просрочек 0,36% |
 | [CTR с калибровкой вероятностей](https://github.com/Sergvid/project_advandex) | Предсказание клика по баннеру для RTB-аукциона | PR-AUC 0,385 против 0,172 у baseline · ECE 0,009 |
 | [Возрастные категории пользователей](https://github.com/Sergvid/project_yeti) | Мультиклассовая классификация по логам посещений | F1-macro 0,891 при пороговом требовании 0,75 |
