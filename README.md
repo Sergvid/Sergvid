@@ -36,6 +36,7 @@ category_encoders, phik, SciPy, Matplotlib, Seaborn
 | [Удержание билетного сервиса](https://github.com/Sergvid/project_tickets) | Анализ возврата пользователей, проверка гипотез | Найден фактор с разрывом удержания 60 п. п. |
 | [Рынок общепита Москвы](https://github.com/Sergvid/project_food_msc) | Разведочный анализ для инвестиционного решения | 8 406 заведений · рекомендации по локации и формату |
 | [AutoValue AI: оценка стоимости автомобилей](https://github.com/Sergvid/project_autoValue_AI) | Регрессия рыночной цены авто с контролем риска переплаты/недооценки | MAE 75,3 тыс ₽ · R² 0,876 · Overpricing Rate 13,1% на holdout |
+| [UrbanStay: прогноз отмены бронирования отеля](https://github.com/Sergvid/project_urban_stay) | Бинарная классификация риска отмены брони с оценкой экономического эффекта | Incremental Revenue 121,7 млн ₽ (+65,5%) · Recall 83,77% · Precision 84,33% |
 
 ## О подходе
 
