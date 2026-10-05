@@ -27,6 +27,8 @@ category_encoders, phik, SciPy, Matplotlib, Seaborn
 
 | Проект | Задача | Результат |
 |---|---|---|
+| [CargoPronto: риск задержки доставки](https://github.com/Sergvid/project_CargoPronto) | Сегментация клиентов и прогноз задержки заказа | ROC-AUC 0,7769 · Precision 87,90% · Recall 55,85% при пороге 0,70 после калибровки |
+| [NorthCart: пайплайн батч-признаков](https://github.com/Sergvid/project_NorthCart) | Подготовка пользовательских признаков через Airflow, PostgreSQL и S3 | 17 признаков · единая логика для обучения и инференса · воспроизводимые срезы без данных из будущего |
 | [Поведенческий скоринг банка](https://github.com/Sergvid/Project_va_bank) | Прогноз просрочек 90+ дней на горизонте 12 месяцев | ROC-AUC 0,92 · выявление 97,6% дефолтов при доле просрочек 0,36% |
 | [CTR с калибровкой вероятностей](https://github.com/Sergvid/project_advandex) | Предсказание клика по баннеру для RTB-аукциона | PR-AUC 0,385 против 0,172 у baseline · ECE 0,009 |
 | [Возрастные категории пользователей](https://github.com/Sergvid/project_yeti) | Мультиклассовая классификация по логам посещений | F1-macro 0,891 при пороговом требовании 0,75 |
