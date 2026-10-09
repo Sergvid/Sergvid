@@ -15,7 +15,7 @@ SQL-базами. Понимаю, как данные собираются и х
 ## Стек
 
 **Python:** pandas, NumPy, scikit-learn, imbalanced-learn, Optuna,
-category_encoders, phik, SciPy, Matplotlib, Seaborn
+category_encoders, phik, SciPy, Matplotlib, Seaborn, CatBoost
 
 **Инструменты:** SQL, PostgreSQL, SQLAlchemy, Apache Airflow, S3, boto3, Git, Jupyter, pytest, python-dotenv, joblib, Linux
 
@@ -29,6 +29,7 @@ category_encoders, phik, SciPy, Matplotlib, Seaborn
 
 | Проект | Задача | Результат |
 |---|---|---|
+| [Прилавок: прогноз недельных продаж](https://github.com/Sergvid/project_prilavok) | CatBoost, PSI-анализ и недельное переобучение в Airflow | 15 признаков · 6 задач DAG · 2 959 прогнозов за недельный запуск · модели в S3, прогнозы в PostgreSQL |
 | [CargoPronto: риск задержки доставки](https://github.com/Sergvid/project_CargoPronto) | Сегментация клиентов и прогноз задержки заказа | ROC-AUC 0,7769 · Precision 87,90% · Recall 55,85% при пороге 0,70 после калибровки |
 | [NorthCart: пайплайн батч-признаков](https://github.com/Sergvid/project_NorthCart) | Подготовка пользовательских признаков через Airflow, PostgreSQL и S3 | 17 признаков · единая логика для обучения и инференса · воспроизводимые срезы без данных из будущего |
 | [Поведенческий скоринг банка](https://github.com/Sergvid/Project_va_bank) | Прогноз просрочек 90+ дней на горизонте 12 месяцев | ROC-AUC 0,92 · выявление 97,6% дефолтов при доле просрочек 0,36% |
